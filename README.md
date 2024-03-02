@@ -8,9 +8,7 @@ On this platform, I'll be sharing my skills, experiences, and the projects I've 
 
 Whether you're curious about what I've created, how I work, or just want to connect with me, feel free to browse through my portfolio and don't hesitate to share your thoughts or feedback! Thank you for being here, and I hope you find some interesting things.
 
-## Project
+## Projects
 - Letter Frequency Analysator (LFA)
 ### LFA
-This little code ask a name of a txt file, then create two lists about the contained letters' frequency.
-The raked list is sorted based on occurrences of the letters.
-The ordered list follows alphabetical order.
+This little program prompts the user for the name of a text file, then generates two lists detailing the frequency of each letter found in the file. The ranked list is sorted based on the occurrences of the letters, while the ordered list follows alphabetical order. In both lists, you can find the frequency of each character represented in both the count of occurrences and as a percentage.
