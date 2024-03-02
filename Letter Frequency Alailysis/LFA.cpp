@@ -4,6 +4,7 @@
 #include <unordered_map>
 #include <map>
 #include <string>
+#include <cmath>
 
 std::unordered_map<char, int> createLetterMap() {
     std::unordered_map<char, int> frequency;
@@ -119,36 +120,40 @@ void printRnOFrequency(std::unordered_map<char, int> frequency){
     int n;
     char c;
     std::string str;
+    float N = 0;
 
     for ( auto &i : frequency) {
         c = i.first; str = i.first; n = i.second;
+        N += n;
         orderedFrequency[c] = n;
         rankedFrequency[n] += str + " ";
     }
 
     std::cout << "            Ranked frequency:" << std::endl
               << "------------------------------------------" << std::endl
-              << "         (Frequency : Letters)" << std::endl;
-    file << "            Ranked frequency:" << std::endl
-         << "------------------------------------------" << std::endl
-         << "         (Frequency : Letters)" << std::endl;
+              << "(Frequency : Letters : Percentage) Sum: " << N << " pcs" << std::endl;
+    file      << "            Ranked frequency:" << std::endl
+              << "------------------------------------------" << std::endl
+              << "(Frequency : Letters : Percentage) Sum: " << N << " pcs" << std::endl;
+    
     
     for (auto it = rankedFrequency.rbegin(); it != rankedFrequency.rend(); it++) {
-        std::cout << it->first << " : " << it->second << std::endl;
-        file << it->first << " : " << it->second << std::endl;
+        std::cout << it->first << " : " << it->second << ", " << std::round((it->first/N)*100)/100  << "%" << std::endl;
+        file << it->first << " : " << it->second << ", " << std::round((it->first/N)*100)/100  << "%" << std::endl;
     }
 
-    std::cout << std::endl 
-                << "            Ordered frequency:" << std::endl
-                << "------------------------------------------" << std::endl
-                << "         (Letter : Frequency)" << std::endl;
-    file << "            Ordered frequency:" << std::endl
-         << "------------------------------------------" << std::endl
-         << "         (Letter : Frequency)" << std::endl;
+    std::cout << std::endl << std::endl
+                << "                  Ordered frequency:" << std::endl
+                << "----------------------------------------------------------" << std::endl
+                << "(Letter : Frequency : Percentage)  Sum: " << N << " pcs" << std::endl << std::endl;
+    file  << std::endl << std::endl
+                << "                  Ordered frequency:" << std::endl
+                << "----------------------------------------------------------" << std::endl
+                << "(Letter : Frequency : Percentage)  Sum: " << N << " pcs" << std::endl << std::endl;
     for (auto &i : orderedFrequency) {
         if (i.second > 0) {
-            std::cout << i.first << " : " << i.second << std::endl;
-            file << i.first << " : " << i.second << std::endl;
+            std::cout << i.first << " : " << i.second << ", " << std::round((i.second/N)*100)/100  << "%" << std::endl;
+            file << i.first << " : " << i.second << ", " << std::round((i.second/N)*100)/100 << "%" << std::endl;
         }
     }
     std::cout << rankedFrequency[0] << " : 0" << std::endl;
