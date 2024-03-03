@@ -2,7 +2,8 @@
 ## Welcome to my Portfolio! 👋
 Hello World!
 
-I'm Bery0n, a junior programmer and developer, who like challenges.
+I am Bery0n, a junior programmer and developer, who like challenges.   
+I am currently pursuing my Bachelor's degree studies at the Faculty of Informatics at Eötvös Loránd University in Hungary.
 
 On this platform, I'll be sharing my skills, experiences, and the projects I've worked on. My goal is not only to showcase my technical knowledge but also to give you a glimpse into my life and my approach to development.
 
