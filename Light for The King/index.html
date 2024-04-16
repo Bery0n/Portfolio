@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light for the King</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+    </style> 
+</head>
+<body>
+    <div id="starting">
+        <h2 id="title">Mission from King Noname of Nowhere!</h2>
+        <h3 id="hello">Brave Adventure come fulfil the impossible! <br> Come to serve for our royal Mayesty, the King Noname!</h3>
+        <p id="mission">His Majesty's wish is to overshine every corner of his Palace. But His Royal Highness afarid of spiders and the corridors are full of those horrible creatures. The evil does not spleep! Brave Adventure help us place lamps to banish those monsters!</p>
+        <input type="text" id="name" maxlength="30" placeholder="How can I call you Adventure?">
+        <a href="#" class="btn" id="accept">Accept Mission</a>
+    </div>
+    <div id="game"class="container hidden">
+        <div id="maps">
+            <h3 >King Noname : </h3>
+            <p>Wellcome <span id="advname">Adventure</span>! What place do you choose to fulfil my mission?</p>
+            <a href="#" class="btn" id="kitchen">Kitchen</a>
+            <a href="#" class="btn" id="lobby">Lobby</a>
+            <a href="#" class="btn" id="dungeons">Dungeons</a>
+            
+        </div>
+        <div id="palace" class="container hidden">
+            <div id="time">
+                <span class="digit" id="hr">
+                  00</span>
+                <span class="txt">Hr</span>
+                <span class="digit" id="min">
+                  00</span>
+                <span class="txt">Min</span>
+                <span class="digit" id="sec">
+                  00</span>
+                <span class="txt">Sec</span>
+                <span class="digit hidden" id="count">
+                  00</span>
+            </div>
+            <table class="board">
+            </table>
+            <a href="#" class="btn" id="retry">Retry</a>
+            <a href="#" class="btn" id="toKing">Back to the King</a>
+            <a href="#" class="btn" id="run">Run away</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p id="signo">2023/24 Webprogramming - Beryon</p>
+        </div>
+    </footer>
+    <script src="index1.js"></script>
+</body>
+</html>
