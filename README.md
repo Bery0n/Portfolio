@@ -11,3 +11,4 @@ Whether you're curious about what I've created, how I work, or just want to conn
 
 ## Projects
 - Letter Frequency Analysator (LFA)
+- Light For The King (LFTK)
