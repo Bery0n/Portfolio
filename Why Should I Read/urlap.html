@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <title>Mit jánlasz?</title>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/alap.css">
+  <link rel="stylesheet" type="text/css" href="css/urlap.css">
+  <link rel="stylesheet" type="text/css" href="css/print.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <article>
+                <h1>Te milyen könyvet javasolsz?</h1>
+                <p>Írd meg, te melyik könyvet olvastad először, vagy melyik könyvet ajánlanád!</p>
+            </article>
+        </header>
+    
+        <main>
+            <form action="mailto:cp5m1i@inf.elte.hu" method="post" enctype="text/plain">
+                <label for="iro">Író</label><br>
+                <input type="text" name="iro" id="iro"  size="40" maxlength="40" placeholder="Író neve.."><br>
+                <label for="cim">Cím</label><br>
+                <input type="text" name="cim" id="cim" size="90" maxlength="90" placeholder="Könyv címe.."><br>
+                <label for="cselekmeny" >Cselekmeny</label><br>
+                <textarea name="cselekmeny" id="cselekmeny" maxlength="800" placeholder="Írd le a cselekményt röviden, de ne szpojlerezz.."></textarea><br>
+
+                <h2>Melyik a kedvenced?</h2> <br>
+
+                <div class="row  row-cols-1 row-cols-md-2 row-cols-lg-3 ">
+                    <div class="col">
+                        <input type="radio" name="ismerem" value="Assassin's Creed" id="r1">
+                        <label for="r1" id="radio"><span lang="en">Assassin's Creed</span></label>
+                    </div>
+                    <div class="col">
+                        <input type="radio" name="ismerem" value="Harry Potter" id="r2">
+                        <label for="r2" id="radio"><span lang="en">Harry Potter</span></label>
+                    </div>
+                    <div class="col">
+                        <input type="radio" name="ismerem" value="Narnia Kórnikái" id="r3">
+                        <label for="r3" id="radio">Narnia Kórnikái</label>
+                    </div>
+                    <div class="col">
+                        <input type="radio" name="ismerem" value="Percy Jackson" id="r4">
+                        <label for="r4" id="radio"><span lang="en">Percy Jackson</span></label>
+                    </div>
+                    <div class="col">
+                        <input type="radio" name="ismerem" value="Trónok Harca" id="r5">
+                        <label for="r5" id="radio">Trónok Harca</label>
+                    </div>
+                    <div class="col">
+                        <input type="radio" name="ismerem" value="Egyik sem" id="r6">
+                        <label for="r6" id="radio"> Egyiket sem ismerem</label>
+                    </div>
+                </div>
+
+                <h2 id="utolso">Szeretnéd, hogy legyenek még ilyen könyvismertetők?</h2>
+                <div class="row row-cols-1">
+                    <div class="col" ><input type="checkbox" name="hir" id="hir" value="igen">
+                    <label for="hir" id="hirl">Igen</label><br></div>
+                </div>
+                <div class="row row-cols-1 " id="utolso">
+                    <div class="col text-center">
+                        <input type="submit"  id="submit" value="Elküld">
+                        <input type="reset" id="reset" value="Töröl">
+                    </div>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <h2>Köszönöm, hogy kitötltötted!</h2>
+        </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <title>Miért olvassunk - Trónok Harca</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/alap.css" title="alap">
+    <link rel="stylesheet" type="text/css" href="css/print.css">
+    <link rel="stylesheet" type="text/css" href="css/got.css">
+
+    
+    <script>
+      document.addEventListener("DOMContentLoaded", function(e){
+        var myOffcanvas = document.getElementById('offcanvasWithBothOptions');
+        var bsOffcanvas = new bootstrap.Offcanvas(myOffcanvas);
+        document.getElementById("OpenMenu").addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          bsOffcanvas.toggle();
+        });
+      });
+    </script>
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="kipozicional">
+      <a href="#tartalom">Ugrás a tartalomra</a>
+    </nav>
+  
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="media/logok1.png" alt="Könyvikon (színes lapokkal)"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" id="home" aria-current="page" href="index.html">Kezdőlap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="olvassunk.html">Miért olvassunk</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Kezdd el most
+              </a>
+              <ul class="bg-dark dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="text-light bg-dark dropdown-item" href="assassin.html"><span lang="en">Assassin's Creed</span></a></li>
+                <li><a class="text-light bg-dark dropdown-item" href="harry.html"><span lang="en">Harry Potter</span></a></li>
+                <li><a class="text-light bg-dark dropdown-item" href="narnia.html">Narnia Krónikái</a></li>
+                <li><a class="text-light bg-dark dropdown-item" href="percy.html"><span lang="en">Percy Jackson</span></a></li>
+                <li><a class="text-light bg-dark dropdown-item" href="thrones.html">Trónok Harca</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div> <!-- container-fluid -->
+    </nav>
+
+    <img src="./media/got/got_header.png" alt="" id="fejlec">
+
+  </header>
+
+  <main>
+    <article id="tartalom">
+        <h1>Trónok harca</h1>
+        <p>	A <span lang="en">fatntasy</span> műfaj újjabb ékkőve a Trónok harca. <span lang="en">George R. R. Martin</span>könyveiből készült sorozat, hatalmas sikert aratott. Aki szereti a középkor témáját, a ármánykodás és a sárkányok korát annak ez egy kihagyhatatlan tétel a listáról. <span lang="en">Westeros</span> világában részesei lehetünk, ahogy a nemes házak vérremenő küzdelmet vívnak a hatom ért, bevetve észt, furfangot, fegyvert és tüzet. Eközbe valami rettentő közlít északról.</p>
+    </article>
+      
+      <nav class="navbar navbar-dark bg-dark" id="tartalomjegyzek">
+        <div class="container-fluid">
+          <a class="navbar-brand"  id="navtitle" href="#">Tartalom</a>
+          <button class="navbar-toggler" type="button" id="OpenMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Tartalom</h5>
+              <button type="button" class="btn-close  btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#iro">	Pár szó az íróról</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#ismerteto">	Ha még nem hallottál a Trónok harcáról</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#erdekesseg">	<span lang="en">Westeros</span> földje</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#sorrend">	Könyvek sorrendje</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#megjelenesek">	Sorozat Vs Könyvek</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#elemzes">	Tudod követni?</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <article id="iro"> <!-- iro -->
+        <figure id="martinf">
+          <img id="martin" src="./media/got/iro.jpg" alt="Az író arcképe">
+          <figcaption><span lang="en">George R. R. Martin</span></figcaption>
+        </figure>
+        <h2>	Pár szó az íróról</h2>
+        <p>
+          <span lang="en"><b>George Raymond Richard Martin</b></span> 1948 szeptember 20.-ban született <span lang="en">New Jersey</span>ben. Már fiatalon elkezdett írni. Eleinte rémtörténetekkel, majd novellákkal foglalkozott. Egyetemi képzése alatt mesterdiplomát szerzett újságírásból. Tanulmányait követően a <span lang="en">Clarke</span> Főiskolában tanított újságírást és csak részmunkaidőben foglalkozott írással. 1979-től lett főállású író. Elsősorban fantasztikus műfajban munkálkodott, de horror és <span lang="en">science fiction</span> témában is alkotott. 1986-tól a filmiparban is tevékenykedett producerként. Miután elegelett a stúdiókból visszatért a regényíráshoz. Leghíresebb műve 1996-ban jelent meg. A tűz és jég dala sorozat a <span lang="en">fantasy</span> kiemelkedő darabja. 
+        </p>
+      </article>
+      <article id="ismerteto"> <!-- ismertető -->
+        <h2>	Ha még nem hallottál a Trónok harcáról</h2>
+        <p>
+          <span lang="en">Westeros</span> fölött valaha a sárkánykirályok uralkodtak, ám a <span lang="en">Tragaryen</span>-dinasztiát tizenöt évvel ezelőtt elűzték, és most <span lang="en">Robert Baratheon</span> van hatalmon hű barátai, <span lang="en">Jon Arryn</span>, majd <span lang="en"> Eddard Stark</span> segítségével. A konfliktus középpontjában Deres urai, a <span lang="en">Stark</span>ok állnak. Olyanok, mint a föld, ahol születtek: makacs, kemény jellemű család. Hősök, gazemberek és egy gonosz hatalom története elvenedik meg. Ám hamar rá kell ébrednünk, hogy ebben a világban mégsem egyszerűen jók és gonoszok kerülnek szembe egymással, hanem mesterien ábrázolt jellemek bontakozak ki különböző vágakkal, célokkal, félelmekkel és sebekkel.
+        </p>
+      </article>
+      <article id="erdekesseg"> <!-- érdekesség -->
+        <img id="map" src="./media/got/westereos.jpg" alt="Westeros térképe">
+        <h2>	<span lang="en">Westeros</span> földje</h2>
+        <p>
+          <span lang="en">Westeros</span> a Trónok harca világában a <b>három kontinens egyike</b>, amellyen zajlik a cselekmények túlnyomó része.Az emberek érkezése előtt két faj élt <span lang="en">Westeros</span>on, az Erdő gyermekei és az óriások. A történetünk előtt körülbelül tízezer évvel érkeztek az Elsők a földrészre. Ezt követően jött a Hősök kora, mely alatt számos királyság megalakult.
+        </p>
+        <p>
+          Sajnos ezt a boldog ídőt egy sokkal sötétebb követte, a Hosszú Éjszaka. <span lang="en">Westeros</span>on ugyanis máshogy telnek az évszakok. Amíg a tavas és az ősz majd egy-két év távlatúak, a tél és a nyár több emberöltőig is eltarthat. A Hosszú Éjszaka a <span lang="en">westeros</span>i emberek legsötétebb időszaka volt. Az Örök Tél Földjéről ugyanis elindult a Másoknak nevezett rettenet. Ez a csak hideget és halált hozó emberhez hasonló faj megtámadta a déli királyságokat. A velük érkező tél több mint száz évig tartott. Az embereknek csak az Erdő gyermekeivel kötött szövetséggel sikerült visszaverni a rideg lényeket. Ezt követően a Stark-ház alapítója, Építő Brandon, észak déli területek északi régiójának királya egy védvonalat állitott fel, hogy a Mások nehogy mégegyszer ekkora bajt hozhassanak az emberekre. Ez pedig a még mindíg álló hatalmas építmény, <b>a Fal</b>, amit egy független lovagrend, az <b>Éjjeli Őrség</b> oltalmaz.
+        </p>
+        <p>
+          A Mások után béke honolt <span lang="en">Westeros</span> királyságain, ám rövid idő elteltével új hódítók érkeztek. A sáránykirályok. A Targaryen-ház öveteléseit eleinten nem vették komolyan, mert sem területük, sem hadseregük nem volt jelentős. Mégis a Targaryenek támadásainak senki sem tudott ellenálni, mivel volt egy előnyük ezezk pedig a sárkányok voltak. Ezekkel a lényekkel seki nem versenghetett. Miután <span lang="en">Arryn</span> Völgye és Észak uralkodói megadták magukat, az új hódítók uralmuk alá hajtották a kontinenst. Egy új kor kezdődött, új dinasztiával, ami a Hét királyságnak nevezett egyesített államok fölött uralkodik. Uralkodásuk alatt két polgárháború is volt, amik között az utolsó sárkányok is eltüntek. A második polgárháború vetett véget a rémuralomnak. És itt kezdődik történetünk, a Baratheon-ház trónra kerülésével...
+        </p>
+        <p>
+          <a href="https://gameofthrones.fandom.com/hu/wiki/Kateg%C3%B3ria:Game_of_Thrones_Wiki" target="_blank">Tudj meg többet!</a>
+        </p>
+      </article>
+      <article id="sorrend"> <!-- sorrend -->
+        <h2>Könyvek sorrendje</h2>
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="p-4">
+            <table class="table table-striped">
+              <caption>
+                <details>
+                  <summary>Súgó</summary>
+                  <p>A táblázatban a könyvek alap adatait tüntetjük fel (cím és borítókép). A felsorolás a történet sorrendjét követi.</p>
+                </details>
+              </caption>
+              <thead>
+                <tr>
+                  <th scope="col">Cím</th>
+                  <th scope="col">Borító</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>	Trónok harca</td>
+                  <td><figure><img src="./media/got/got_tronok.gif" alt="Borító: cím, író és sárkányfej"></figure></td>
+                </tr>
+                <tr>
+                  <td>	Királyok csatálya</td>
+                  <td><figure><img src="./media/got/got_kiralyok.gif" alt="Borító: cím, író és korona"></figure></td>
+                </tr>
+                <tr>
+                  <td>	Kardok vihara</td>
+                  <td><figure><img src="./media/got/got_kardok.gif" alt="Borító: cím, író és páncélsisak"></figure></td>
+                </tr>
+                <tr>
+                  <td>	Varjak lakomája</td>
+                  <td><figure><img src="./media/got/got_varjak.gif" alt="Borító: cím, író és síszes kupa"></figure></td>
+                </tr>
+                <tr>
+                  <td>	Sárkányok tánca</td>
+                  <td><figure><img src="./media/got/got_sarkanyok.gif" alt="Borító: cím, író és sárkánymintás pajzs"></figure></td>
+                </tr>
+                <tr>
+                  <td><span lang="en">The Winds of Winter</span></td>
+                  <td>	(előkészületben)</td>
+                </tr>
+                <tr>
+                  <td><span lang="en">A Dream of Spring</span></td>
+                  <td>	(tervezett) </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </article>
+      <article id="megjelenesek"> <!-- megjelenések -->
+        <img id="film" src="./media/got/film.jpg" alt="Daenerys és egyik sárkánya">
+        <h2>	Sorozat Vs Könyvek</h2>
+        <p>
+          Ez a lenyűgöző alkotás remek alapanyaga lett a fantasy műfaj egyik mérföldkövét jelető sorozatnak. Bizonyára már hallottad vagy láttad is a Tűz és jég dalából készült <span lang="en">HBO</span>-s filmsorozatot, a Trónok harcát. Sajnálatos módon a könyvek ádozatául estek a filmsorozat sikerességének. A első két évad cselekménye szorosan követi az első két kötet cselekményeit, azonbam a folytatásban mind tempóban, mind történetben eltér az eredetitől. Na ez még nem lenne fájó pont, de sorozat népszerűsége miatt, <span lang="en">George R. R. Martin</span> elsősorban arra koncentrált. Így még ma sem készült el két könyv, amely kellőképpen lezárná a papír alapú történetet. Mindenesetre érdemes mind a sorozatot mind könyveket megismerni, mert mindkettő remek alkotás. 
+        </p>
+      </article>
+      <article id="elemzes"> <!-- elemzés -->
+        <img id="houses" src="./media/got/houses.png" alt="A legnagyobb nemesi házak címere">
+        <h2>	Tudod követni?</h2>
+        <p>
+          <span lang="en">George R. R. Martin</span> Tűz és jég dala című sorozata egy rednkívül alaposan kidolgozott, csodálatos történet, ami sokan szakít az addigi fantatszikus történetek sémáival. Az alkotás sokszor hasonlítják <span lang="en">J. R. R. Tolkine</span>-néhoz, ami a mai napig az egyik legjelentősebb iromány a műfajban. A Trónok harca története az elődeivel ellentétben több fő cselekményszálon fut, amik időben, térben máshol játszódnak és mitöbb sok-sok karaktert mozgatnak, más szemszögű narrációval. Ez egy hihetetlen sokoldalú vátozatos történet mesélést valósít meg. Minezek ellenére, van egy hátránya is ennek. Néha a fejezet váltásoknál, nehéz visszaemlékezni, hova is térünk vissza. Ugyanis nem olyan könnyű fejben tartani a rengetek karakter nevét, származását, helyét, motivációját és előtörténetét. Nem kell megijedni, mert a könyvekben mindíg van egy térkép amin megtalálható az össze helyszín. Illetve egy függelék is csatolva van, amiben le van írva minden a könyvben szerplő házakról, törtétentükről, tagjaikról és udvartartásukról. (Minden karakterről a kellő információ). 
+        </p>
+        <p>
+          Fontos még megemlíteni, hogy nem csak a párhuzamos történetmesélés, de az erkölcsi rend felállításában is újjító ez a történet. Tolkien aklotásaival ellentétben, az itt megjelenő mitvációk és erköcski kérdések, korántsem fekete-fehérek. Nincs egyértelmű gonosz és jó, bár bizonyára talál indendki, számrára könnyebben és nehezebben kedvelhető karakter is. Ebben segít, hogy minden egyes főbb cselekményszálat egy karakter narrál. Ennek köszönhetően megérthetjük motivációikat. 
+        </p>
+      </article>
+
+  </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+</body>
+</html>

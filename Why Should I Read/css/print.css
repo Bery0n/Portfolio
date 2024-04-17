@@ -1,0 +1,52 @@
+@media print {
+
+    * {
+        background-image: none !important;
+    }
+      
+    .card-img-top, video, #fejlec {
+        display: none !important;
+    }
+
+    article img, section img {
+        border: none;
+        border-radius: 0.5rem;
+        width: 20%;
+    }
+
+    body {
+      margin: 0;
+      color: #000;
+      background-color: #fff;
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
+    }
+
+    .citation, #bevezeto {
+        font: 2.5rem !important;
+        font-style: italic;
+        text-align: center;
+        border-left: solid #000;
+        border-width: 0.625;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+
+    header, .btn, .navbar {
+        display: none !important;
+    }
+
+    #kezdd {
+        font: 1.875rem !important;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .card {
+        background-color: #fff !important;
+        color: #000 !important;
+        border-color: #000 !important;
+    }
+
+  
+  }

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <title>Miért olvassunk - Narnia Krónikái</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/alap.css" title="alap">
+    <link rel="stylesheet" type="text/css" href="css/print.css">
+    <link rel="stylesheet" type="text/css" href="css/narnia.css">
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function(e){
+        var myOffcanvas = document.getElementById('offcanvasWithBothOptions');
+        var bsOffcanvas = new bootstrap.Offcanvas(myOffcanvas);
+        document.getElementById("OpenMenu").addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          bsOffcanvas.toggle();
+        });
+      });
+    </script>
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="kipozicional">
+      <a href="#tartalom">Ugrás a tartalomra</a>
+    </nav>
+  
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="media/logok1.png" alt="Könyvikon (színes lapokkal)"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" id="home" aria-current="page" href="index.html">Kezdőlap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="olvassunk.html">Miért olvassunk</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Kezdd el most
+              </a>
+              <ul class="bg-dark dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="text-light bg-dark dropdown-item" href="assassin.html"><span lang="en">Assassin's Creed</span></a></li>
+                <li><a class="text-light bg-dark dropdown-item" href="harry.html"><span lang="en">Harry Potter</span></a></li>
+                <li><a class="text-light bg-dark dropdown-item" href="narnia.html">Narnia Krónikái</a></li>
+                <li><a class="text-light bg-dark dropdown-item" href="percy.html"><span lang="en">Percy Jackson</span></a></li>
+                <li><a class="text-light bg-dark dropdown-item" href="thrones.html">Trónok Harca</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div> <!-- container-fluid -->
+    </nav>
+
+    <img src="./media/narnia/narnia_header.png" alt="" id="fejlec">
+
+  </header>
+
+  <main>
+      <article id="tartalom">
+        <h1>Narnia Kórniái</h1>
+        <p>	A gyermeki képzelőerő határtalan. „Micsodaaa, hogy ez most valóság?!” Narnia egy varázslatos hely, ami nem valami képzelgés. Ez a világ tele van meglepő szerzetekkel és varázslattal. C. S. Lewis könyvsorozata által, olyan kalandoknak lehetük részesei, amelyek közben is el kell gondolkoznunk, hogy ez most csak álom vagy valóság. Visszarepülünk a gyerekkor játékos hangulatába és annak szemüvegén keresztül élhetünk át izgalmas történeteket.</p>
+      </article>
+      
+      <nav class="navbar navbar-dark bg-dark" id="tartalomjegyzek">
+        <div class="container-fluid">
+          <a class="navbar-brand"  id="navtitle" href="#">Tartalom</a>
+          <button class="navbar-toggler" type="button" id="OpenMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Tartalom</h5>
+              <button type="button" class="btn-close  btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#iro">	Pár szó az íróról</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#ismerteto">	Ha még nem hallottál Narnia Krónikáiról</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#erdekesseg">	Narnia világa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#sorrend">	Könyvek sorrendje</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <article id="iro"> <!-- iro -->
+        <figure id="lewisf">
+          <img id="lewis" src="./media/narnia/iro.png" alt="Az író arcképe">
+          <figcaption><p><span lang="en">C. S. Lewis</span></p></figcaption>
+        </figure>
+        <h2>	Pár szó az íróról</h2>
+        <p>
+          <span lang="en"><b>Clive Staples Lewis</b></span> Észak-Írországban született 1898 november 29.-én. Édesanyját gyerekként elvesztette, ezután számos különböző iskolába járt, majd magán úton tanult. 1913 körül lehagytam kerszténységét és 1929-ig ateista volt. Feltehetően egy a <span lang="en">J. R. R. Tolkien</span>nal folytatott beszélgetésnek köszönhetően tért vissza hitéhez. 1925-től 1954-ig az Oxfordi Egyetemen tanított és kutatott. Ezt követően a <span lang="en">Cambridge</span> Egyetemen lett a középkori és reneszánsz irodalom professzora.Kiváló előadókészséggel megáldott, keresztény író volt.
+        </p>
+        <p>
+          Számos nagysikerű művével megajándékozta embereket, de nem csak a felnőtteket. Gyermekek számára is írt könyveket <span lang="en">fantasy</span> és tudományos fatatsztikum témakörében. Ezek közül kimelekedi a hét kötetes regénysorozat, a Narnia Krónikái. Mindezek mellett több iroldalmi-kritikai munkája is volt. A nagysikerü regényíró 1963 novemben 22-én adta vissza lelkét a Teremtőnek Oxfordban. 
+        </p>
+      </article>
+      <article id="ismerteto"> <!-- ismerteto -->
+        <h2>	Ha még nem hallottál Narnia Krónikáiról</h2>
+        <p>
+          Narnia az örök tél birodalma, melyet a Fehér Boszorkány tart uralmat alatt. egy jéggé dermesztett ország, ahol soha sem jár a Mikulás és nem létezik a karácsony. A szabadítóról szóló homályos jóslat viszot életben tartja a reményt:
+        </p>
+        <div class="citation">
+          <p>	„Jóra fordul minden rossz, ha Aslan visszatér, <br>
+            Megfizet a gonosznak a sok-sok bánatért. <br>
+            Ha összecsapja mancsait, elszökik a tél. <br>
+            Ha megrázza sörényét, a tavasz visszatér.”
+            </p>
+        </div>
+        <p>
+          A négy testvér – <span lang="en">Peter</span>, <span lang="en">Susan</span>, <span lang="en">Edmund</span> és <span lang="en">Lucy</span> – egy vidéki kastélyban álló ruhásszekrényen keresztül lép be Narnia földjére, hogy felvegye a harcot a boszorkánnyal és csatlósaival. A hó is olvadásnak indul, hiszen Aslan, a Nagy Oroszlán egyre közeledik...
+        </p>
+      </article>
+      <article id="erdekesseg"> <!-- erdekesseg -->
+        <img id="map" src="./media/narnia/narnia_world_map.jpg" alt="Narnia világának térképe">
+        <h2>	Narnia világa</h2>
+        <p>
+          Narnia az emberekétől merőben eltéreő világ. Itt nincsenek bolygók, a világ lapos, amit buraként fed le az égbolt. Az égen nem gázgömbök fénylenek a távolból, hanem az emberekhez hasonló lények vilálgítják meg az éjszakát. A szárazföld vizsont hasonló a miénkhez. Hegyek, völgyek, erdők, folyók és tavak.
+        </p>
+        <p>
+          <b>Narnia nemcsak a világ neve</b>, hanem az egyik benne létező oszágé is. Ezt a birodalmat, egy hatalmas erejű oroszlán alkotta meg, majd népesítette be beszélő állatokkal és mítikus lényekkel. A oszág négy határa a Nagy Keleti Óceán, a Nagy Nyugati Hegylánc, északon a Szotyrog folyó és délről <span lang="en">Archenland</span>dal határos. Habár a cselekmények többsége Narnia országában játszódnak más uradalmak is megjelennek a történetben, mint Telmar, (a korábban említett) <span lang="en">Archenland</span> és <span lang="en">Calormen</span>. 
+        </p>
+        <p>
+          <a href="https://narnia.fandom.com/hu/wiki/Narnia" target="_blank">Tudj meg többet!</a>
+        </p>
+      </article>
+      <article id="sorrend"> <!-- sorrend -->
+        <h2>Könyvek sorrendje</h2>
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="p-4">
+              <table class="table table-striped">
+                <caption>
+                  <details>
+                    <summary>Súgó</summary>
+                    <p>A táblázatban a könyvek alap adatait tüntetjük fel (cím és borítókép). A felsorolás a történet sorrendjét követi.</p>
+                  </details>
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Cím</th>
+                    <th scope="col">Borító</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>	A varázsló unokaöccse</td>
+                    <td><figure><img src="./media/narnia/n_varazslo.png" alt="Borító: író, cím, cím tárgyának illusztrációja" class="img-fluid"></figure></td>
+                  </tr>
+                  <tr>
+                    <td>	Az oroszlán, a boszorkány és a ruhásszekrény</td>
+                    <td><figure><img src="./media/narnia/n_oroszlan.png" alt="Borító: író, cím, cím tárgyának illusztrációja" class="img-fluid"></figure></td>
+                  </tr>
+                  <tr>
+                    <td>	A ló és kis gazdája</td>
+                    <td><figure><img src="./media/narnia/n_lo.png" alt="Borító: író, cím, cím tárgyának illusztrációja" class="img-fluid"></figure></td>
+                  </tr>
+                  <tr>
+                    <td>	Caspian herceg</td>
+                    <td><figure><img src="./media/narnia/n_caspian.png" alt="Borító: író, cím, cím tárgyának illusztrációja" class="img-fluid"></figure></td>
+                  </tr>
+                  <tr>
+                    <td>	A Hajnalvándor útja</td>
+                    <td><figure><img src="./media/narnia/n_hajnalvandor.png" alt="Borító: író, cím, cím tárgyának illusztrációja" class="img-fluid"></figure></td>
+                  </tr>
+                  <tr>
+                    <td>	Az ezüsttrón</td>
+                    <td><figure><img src="./media/narnia/n_ezusttron.png" alt="Borító: író, cím, cím tárgyának illusztrációja" class="img-fluid"></figure></td>
+                  </tr>
+                  <tr>
+                    <td>	A végső ütközet</td>
+                    <td><figure><img src="./media/narnia/n_vegso.png" alt="Borító: író, cím, cím tárgyának illusztrációja" class="img-fluid"></figure></td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </article>
+  </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
+</body>
+</html>

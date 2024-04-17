@@ -1,0 +1,86 @@
+@media screen {
+    
+    h1, h2 {
+        color: rgb(0, 254, 233) !important;
+    }
+    h3 {
+        margin-top: 2.188rem;
+    }
+    b {
+        color: rgb(0, 254, 233);
+    }
+
+    #tartalom {
+        font-size: 1.5rem;
+        font-style: italic;
+        border-bottom: solid rgb(0, 254, 233) !important;
+        border-width: 0.625rem;
+    }
+    #tartalomjegyzek, .offcanvas ,.offcanvas-body > .navbar-nav > li > .dropdown-menu,  .navbar-toggler  {
+        background-color: #425b58 !important;
+    }
+
+    .citation {
+        border-left: solid rgb(0, 254, 233);
+        border-width: 0.625rem;
+        background-color: #425b58;
+    }
+
+    .table-striped>tbody>tr:nth-child(odd)>td, 
+    .table-striped>tbody>tr:nth-child(odd)>th {
+        background-color: #425b58; 
+    }
+    table.table-striped{
+        border-color: rgb(0, 254, 233) !important;
+    }
+    article a:hover {
+        color: rgb(0, 254, 233);
+    }
+    #rick, #map, #film  {
+        border-radius: 0.5rem;
+        border-left: solid rgb(0, 254, 233);
+        border-width: 0.5rem;
+    }
+
+    #rickf{
+        border-radius: 0.5rem;
+        background-color: #425b58;
+        font-size: 1.2rem;
+        text-align: center;
+        width: 20%;
+        margin: 0 0 3rem 3rem;
+        float: right;
+    }
+    #rick {
+        margin-top: 1rem;
+        width: 84%;
+    }
+    #map {
+        margin: 0 3rem 3rem 0;
+        float: left;
+        width: 25%;
+    }
+    #film {
+        max-width: 50%;
+        height: auto;
+        display: block;
+        margin: 3rem auto;
+
+    }
+}
+
+@media screen and (max-width: 45rem) {
+    #rickf, #map{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    #film {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 3rem auto;
+
+    }
+}

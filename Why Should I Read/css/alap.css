@@ -1,0 +1,142 @@
+@media screen {
+
+    nav.kipozicional a, #kipozicional{
+        position: absolute;
+        left: -9999px
+    }
+    nav.kipozicional a:focus, #kipozicional:focus{
+        position: static;
+        background-color: rgb(93,93,93);
+    }
+    
+    body {
+        color:#ffffff;
+        background-color: rgb(31,31,31);
+    }
+
+    .navbar {
+        color: #ffffff !important;
+        background-color: rgb(31,31,31) !important;
+    }
+    .nav-link {
+        font: 1.25rem Arial, sans-serif !important;
+    }
+
+    .dropdown-menu li a {
+        color: white;
+        font-size: 1.3rem !important;
+    }
+    .navbar-nav > li > .dropdown-menu { 
+        border-left: solid #fff;
+        border-width: 0.375rem;
+        background-color: rgb(31,31,31);
+    }
+    .offcanvas-title {
+        font-size: 1.875rem !important;
+    }
+    .offcanvas {
+        text-shadow: 2px 2px 3px #000;
+    }
+    .offcanvas-body .navbar-nav .nav-item .nav-link {
+        color: rgb(223, 223, 223);
+
+    }
+    
+    #navtitle {
+        text-align: center !important;
+        font-size: 2.1rem !important;
+        font-weight: 600 !important;
+        text-shadow: 2px 2px 3px #000;
+        padding-left: 45% !important;
+    }
+
+    #home {
+        font-weight: bold !important;
+    }
+
+    #fejlec {
+        width: 100%;
+        height: auto;
+        opacity: 1;
+    }
+    
+    .citation {
+        font-size: 1.7rem;
+        color:#ffffff;
+        font-weight: 600;
+        font-style: italic;
+        text-align: center;
+        text-shadow: 4px 4px 0.375rem #000;
+        padding: 1.25rem;
+        margin: 2.5rem 0.2rem 1.5rem;
+        background-color: rgb(31, 31, 31);
+        border-width: 1.25rem;
+        border-radius: 4px;
+        opacity: 1;
+    }
+
+    article {
+        color: #ffffff;
+        font: 1.3rem Arial, sans-serif;
+        font-style: normal;
+        text-align: justify;
+        padding: 2.5rem  5%;
+        background-color: rgb(31, 31, 31);
+    }
+
+    .table, td, th {
+        color:#fff !important;
+    }
+
+    
+    h1 {
+        font-weight: bold;
+        margin-bottom: 1.875rem;
+        text-shadow: 2px 2px 4px #000;
+    }
+    h2 {
+        font-size: 2rem;
+        text-align: left;
+        margin-bottom: 1.563rem;
+        text-shadow: 2px 2px 4px #000;
+    }
+    h3 {
+        text-align: left;
+        margin-bottom: 1.563rem;
+        text-shadow: 2px 2px 4px #000;
+    }
+
+    article a:link, #vid:link {
+        color: rgb(73, 191, 255);
+    }
+    article a:visited, #vid:visited {
+        color: rgb(231, 47, 255);
+    }
+
+    aside {
+        color: antiquewhite;
+        font-size: 1.2rem !important;
+        font-style: italic;
+        padding-bottom: 0.938rem;
+    }
+
+    td {
+        text-align: center;
+        vertical-align: middle;
+    }
+    caption {
+        color: rgb(187, 187, 187);
+    }
+
+    .thumbnail {
+         border-bottom: solid rgb(223, 223, 223) !important;
+         border-top: solid rgb(223, 223, 223) !important;
+         border-right:  solid rgb(223, 223, 223) !important;
+         border-width: 0.6rem !important;
+    }
+    .thumbnail:hover {
+        box-shadow: 0 0 10px 1px rgb(255, 255, 255);
+    }
+
+}
+

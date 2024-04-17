@@ -1,0 +1,57 @@
+@media screen {
+
+
+    body {
+        color: #fff;
+        font-family: Arial, sans-serif !important;
+        text-shadow: 2px 2px 4px #000;
+        background-color: rgb(31, 31, 31);
+        background-image: url(../media/vidtop.png);
+        background-repeat: repeat-x;
+    }
+    h1 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+
+    .header, .main, .footer {
+        padding: 0.625rem;
+        width: 60%;
+    }
+    .header {
+        background-color: rgb(31, 31, 31);
+        border-bottom: solid rgb(47, 218, 13);
+        border-top-left-radius: 1.875rem;
+        border-top-right-radius: 1.875rem;
+        margin: 2% 18% 0% ;
+    }
+    .main {
+        background-color: #3f4f3e;
+        margin: 0% 18% 0% ;
+    }
+
+    .article p {
+        font-size: 1.2rem;
+        padding: 0px 2.2rem 0px;
+        text-align: justify !important;
+    }
+
+    .footer {
+        text-align: center;
+        background-color: #000000;
+        border-top: solid rgb(47, 218, 13);
+        border-bottom-left-radius: 1.875rem;
+        border-bottom-right-radius: 1.875rem;
+        margin: 0% 18% 0% ;
+    }
+
+    a {
+        color:rgb(38, 168, 12)
+    }
+
+}

@@ -1,0 +1,110 @@
+@media screen {
+
+    h1 {
+        color:rgb(0, 254, 195) !important;
+    }
+    h2 {
+        text-align: center !important;
+    }
+
+    b {
+        color: rgb(0, 254, 195);
+    }
+
+    .btn {
+        border-radius: 8px;
+        background-color:rgb(31, 31, 31);
+        color: rgb(0, 254, 195) !important;
+        font-size: 1.375rem;
+        transition-duration: 0.4s;
+    }
+    
+    .btn:hover {
+        background-color:#3e4f48;
+        border-color: rgb(0, 254, 195);
+        border-width: thin;
+        color: rgb(0, 254, 195);
+    }
+
+    .card {
+        border-radius: 17px !important;
+        background-color:#2e3934 !important;
+    }
+    .card-title {
+        color: rgb(0, 254, 195) !important;
+        font: 1.375rem !important;
+        font-weight: 700 !important;
+    }
+    .card-text {
+        text-align: justify;
+        font-size: 1.1rem !important;
+    }
+    .card-img-top {
+        border-bottom: solid rgb(0, 254, 195) !important;
+        border-radius: 17px 17px 0px 0px !important;
+    }
+    
+    #fotema{
+        font-style: normal;
+        border-bottom: solid rgb(255, 170, 0) !important;
+        border-width: 8px !important;
+        margin-bottom: 1.563rem;
+    }
+
+    footer {
+        color: #ffffff;
+        font: 1.5rem Arial, sans-serif;
+        padding: 1.875rem;
+        text-align: center;
+        background-color: #2e3934;
+        border-top: solid rgb(255, 170, 0); 
+        margin-top: 2.5rem;
+    }
+    #ajanlas {
+        font-size: 3.75rem !important;
+        font-weight: 800;
+        border-radius: 10px !important;
+        background-color: rgb(31, 31, 31);
+        color: rgb(255, 170, 0) !important;
+        padding: 0 2rem;;
+    }
+    #ajanlas:hover {
+        background-color:#3e3e31;
+        border-color: rgb(255, 170, 0);
+        border-width: thin;
+    }
+
+    #kezdd {
+        color:rgb(0, 254, 195);
+        font: 3.125rem Arial, sans-serif;
+        font-weight: 700;
+        text-align: center;
+        padding: 0.625rem;
+        background-color: #3e4f48;
+        border-radius: 8px;
+        margin-top: 1.25rem;
+        margin-bottom: 1.875rem;
+    }
+    
+    .citation {
+        background-color: #3e3e31;
+        border-left: solid rgb(255, 170, 0);
+        border-width: 0.625rem;
+        opacity: 0.8;
+    }
+
+}
+
+@media screen and (min-width: 1025px) and (min-height: 582px) {
+    .citation {
+        font-size: 2.5rem !important;
+        color:#ffffff !important;
+        font-weight: 700;
+        background-color: rgb(31, 31, 31);
+        position: absolute !important;
+        top: 25rem !important;
+        left: 50% !important;
+        transform: translate(-50%, -65%) !important;
+    }
+}
+

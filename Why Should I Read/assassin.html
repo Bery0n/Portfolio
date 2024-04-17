@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <title>Miért olvassunk - Assasssin's Creed</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/alap.css" title="alap">
+    <link rel="stylesheet" type="text/css" href="css/print.css" title="alap">
+    <link rel="stylesheet" type="text/css" href="css/ac.css" title="alap">
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function(e){
+        var myOffcanvas = document.getElementById('offcanvasWithBothOptions');
+        var bsOffcanvas = new bootstrap.Offcanvas(myOffcanvas);
+        document.getElementById("OpenMenu").addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          bsOffcanvas.toggle();
+        });
+      });
+    </script>
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="kipozicional">
+      <a href="#tartalom">Ugrás a tartalomra</a>
+    </nav>
+  
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="media/logok1.png" alt="Könyvikon (színes lapokkal)"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" id="home" aria-current="page" href="index.html">Kezdőlap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="olvassunk.html">Miért olvassunk</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Kezdd el most
+              </a>
+              <ul class="bg-dark dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="text-light bg-dark dropdown-item" href="assassin.html"><span lang="en">Assassin's Creed</span></a></li>
+                <li><a class="text-light bg-dark dropdown-item" href="harry.html"><span lang="en">Harry Potter</span></a></li>
+                <li><a class="text-light bg-dark dropdown-item" href="narnia.html">Narnia Krónikái</a></li>
+                <li><a class="text-light bg-dark dropdown-item" href="percy.html"><span lang="en">Percy Jackson</span></a></li>
+                <li><a class="text-light bg-dark dropdown-item" href="thrones.html">Trónok Harca</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div> <!-- container-fluid -->
+    </nav>
+
+    <img src="./media/ac/ac_header.png" alt="" id="fejlec">
+
+  </header>
+
+  <main>
+      <article id="tartalom">
+        <h1><span lang="en">Assassin’s Creed</span></h1>
+        <p>	Milyen izgalmas lenne, ha az őseink össze tudásával rendelkezhetnénk? Az <span lang="en">Assassin’s Creed</span> világában ez lehetséges. Egy új technológia segítségével kutathatjuk föl, hogy alakította és hogyan befolyásolja most is az emberiség sorsát egy titok háború. Ha szereted a <span lang="en">science-fiction</span>-t és erős a idegzeted ez neked való.</p>
+      </article>
+      
+      <nav class="navbar navbar-dark bg-dark" id="tartalomjegyzek">
+        <div class="container-fluid">
+          <a class="navbar-brand"  id="navtitle">Tartalom</a>
+          <button class="navbar-toggler" type="button" id="OpenMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Tartalom</h5>
+              <button type="button" class="btn-close  btn-close-white text-reset" id="CloseMenu" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#irok">Pár szó az írókról</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#ismerteto">	Ha még nem hallottál az <span lang="en">Assassin’s Creed</span>-ről</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#erdekesseg">A két rend</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#sorrend">Könyvek sorrendje</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#megjelenesek">Játék, majd Könyv és Film</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#elemzes">	Hangulat és tanulság</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <article id="irok"> <!-- írók -->
+        <figure id="antonf">
+          <img id="anton" src="./media/ac/anton_gill.jpg" alt="Az egyik író arcképe">
+          <figcaption><p><span lang="en">Anton Gill</span><br>(művészevén <span lang="en">Oliver Bowden</span>)</p></figcaption>
+        </figure>
+        <h2>Pár szó az írókról</h2>
+        <p>
+          	Az <span lang="en">Assassin’s Creed</span> sorozat több író nevéhez is köthető. Mindekek előtt meg kell említeni, hogy az <span lang="en">Oliver Bowden</span> egy művésznév, ami alatt előrször <span lang="en">Anton Gill</span>, később <span lang="en">Andrew Holmes</span> írta tovább a sorozatot. További írói a sorozatnak <span lang="en">Christine Golden</span>, <span lang="en">Matthew Kibry</span> és <span lang="en">Gordon Doherty</span>.
+        </p>
+        <p>
+          	<span lang="en"><b>Anton Gill</b></span> ( <span lang="en">Oliver Bowden</span> ) 1948-ban született Illford-ban, Angliában. Az egyesült királyságban végzett középiskolát és egyetemet. Tizenöt év szíház után hivatásosan kezdett el írni történelmi valős és kitalált törtétneteket. Neki köszönhetjük az <span lang="en">Assassin’s Creed</span> könyvek legjobb törtétetét, az Ezio trilógiát (Reneszánsz, Testvériség, Jelenések).
+        </p>
+        <p>
+          <span lang="en"><b>Andrew Holmes</b></span> (<span lang="en">Oliver Bowden</span>) britt író folytatta <span lang="en">Anton Gill</span> munkásságát. Az <span lang="en">Assassins’s Creed</span> könyvek többésge tőle származik. Ide vehető címek: A titkos keresztes háború, Árulás, Feket lobógó, Egység, Alvilág, Sivatagi eskü.
+        </p>
+        <p>
+          <span lang="en"><b>Christine Golden</b></span> 1963 november 21-én született. Az amerikai írónő főként a fantatsztikus, horror és a <span lang="en">science fiction</span> témakörében írt regényeket és több novellát is. Ő írta az Eretnekség című kötetet, illetve a filmeregényt.
+        </p>
+        <p>
+          <span lang="en"><b>Mattew J. Kibry</b></span> 1976 január 28-ban az amerikai Utah-ban szültett. Itt járt egyetemre, ahol iskola pszichológusi diplomát végzett. Számos gyerek könyvet írt, de hozzá köthető az <span lang="en">The Last Descendant</span> trilógia és a Valhalla című könyvek.
+        </p>
+        <p>
+          <span lang="en"><b>Gordon Doherty</b></span> skót születésű regényíró. Főként ként a klasszikus antikvitás témákában munkálkodik. Az ő nem évhez kapcsolódik az Odisszea történetének megalkotása.
+        </p>
+      </article>
+      <article id="ismerteto"> <!-- ismerteto -->
+        <h2>	Ha még nem hallottál az <span lang="en">Assasin’s Creed</span>ről</h2>
+        <p>	Az emberek előtt a egy sokkal magasabbredű faj élt a világban. Ez a létforma sajnos eltünt, de néhány erekjét hátrahagya lehetőséget adott az embereknek arra, hogy megfejtsék a szabad akarat titkát. Mondanom sem kell mekkora hatalmat jelentenek ezek a tárgyak. A történelem folyamán két csoport, a Templomosok és Orgyilkosok rendje, kezdett háborúba, mialatt az erekjéket elrejtették. A jelenben egy új technológia segítségével elérhetjük az őseink emlékeit. Ennek segítségével próbáljuk megkereseni az erekjéket és végetvetgni a háborúnak.
+        </p>
+
+        <div class="citation">
+          <p>„Csak akkor igazi a győzelem, ha teljes.” </p>
+          <p><span lang="en">Oliver Bowden</span></p>
+        </div>
+      </article>
+      <article id="erdekesseg"> <!-- erdekesseg -->
+        <img id="ezio" src="./media/ac/assassin.png" alt="Orgyilkos felszerelésben (rejtett penge és csuklya)">
+        <h2>A két rend</h2>
+        <p>
+          A háborúban az egymással szem ben álló frakciók az <b>Templomosok Rendje</b> és az <b>Orgyilkosok Testvérisége</b>. Habár az eszméik már az ókortól kezdve éltek, két csoport a keresztes háborúk idején alakultak meg.
+        </p>
+        <p>
+          A Keresztes lovagok alapították meg a Templomosok rendjét, hogy az elveszett Szentgrál megtalálásának szenteljék az életüket, ugyanis a Grál tartalmazza a szabad akarat titkának kulcsát. Ha sikerül megszerezniük, akkor a szabad akarat eltörlésével végetvethetnek az emberi agressziónak, ezzel örökre megszünnének a háborúk.
+        </p>
+        <p>
+          Mindigis voltak olyanok, akik a szabad akarat híve voltak. Az assassin-ok, orgyilkosok testvérisége ezeket az embereket fogta össze. Megtanulták hogyan maradjanak észrevétlenek, hogyan öljenek gyorsan és probléma nélkül. Az ő céljuk, hogy a templomosok előtt megszerezzék a különleges erővel bíró erekjét, hogy ezzel megakadályozzák a rend viláturalmát. Bármi áll is az útjukba, nem hagyhatják elvenni az emberiség szabadságát, mégha ezért ölniük is kell. Mottójuk: 
+        </p>
+        <div class="citation">
+          <p>	„A sötétben járunk, de a fényt szolgáljuk.”</p>
+        </div>
+        <p><a href="https://assassinscreed.fandom.com/hu/wiki/Asszaszinok" target="_blank"> Tudj meg többet!</a></p>
+      </article>
+      <article id="sorrend">  <!-- sorrend -->
+        <h2>Könyvek sorrendje</h2>
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="p-4">
+            <h5 class="text-white h4">Sorozatok</h5>
+              <table class="table table-striped">
+                <caption>
+                  <details>
+                    <summary>Súgó</summary>
+                    <p>A táblázatban a könyvek alap adatait tüntetjük fel (író, cím és borítókép). A felsorolás a történet és a kronológia sorrendjét követi.</p>
+                  </details>
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Író</th>
+                    <th scope="col">Cím</th>
+                    <th scope="col">Borító</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span lang="en">Oliver Bowden</span></td>
+                    <td>A titkos keresztes háború</td>
+                    <td><img src="./media/ac/ac_titkos.png" class="img-fluid" alt="Borítókép: főhős(ök), korhű háttér, cím és író"></td>
+                  </tr>
+                </tbody>
+              </table>
+              <aside>
+                <p>A legelső játék, tehát az alap ötletet és történetet Ezio Auditore narrálásában olvashatjuk.</p>
+              </aside>
+              <table class="table table-striped">
+                <caption>
+                  <details>
+                    <summary>Súgó</summary>
+                    <p>A táblázatban a könyvek alap adatait tüntetjük fel (író, cím és borítókép). A felsorolás a történet és a kronológia sorrendjét követi.</p>
+                  </details>
+                </caption>
+                <tbody>
+                  <tr>
+                    <td><span lang="en">Oliver Bowden</span></td>
+                    <td>Reneszánsz</td>
+                    <td><img src="./media/ac/ac_reneszansz.png" class="img-fluid" alt="Borítókép: főhős(ök), korhű háttér, cím és író"></td>
+                  </tr>
+                  <tr>
+                    <td><span lang="en">Oliver Bowden</span></td>
+                    <td>Testvériség</td>
+                    <td><img src="./media/ac/ac_testveriseg.png" class="img-fluid" alt="Borítókép: főhős(ök), korhű háttér, cím és író"></td>
+                  </tr>
+                  <tr>
+                    <td><span lang="en">Oliver Bowden</span></td>
+                    <td>Jelenések</td>
+                    <td><img src="./media/ac/ac_jelenesek.png" class="img-fluid" alt="Borítókép: főhős(ök), korhű háttér, cím és író"></td>
+                  </tr>
+                </tbody>
+              </table>
+              <aside>
+                <p>	Talán az Ezio trilógia (Reneszánsz, Testvériség, Jelenések) a legmeghatározóbb történet az <span lang="en">Assassin’s Creed</span>-nek. Leggyakrabban főszeremlője, Ezio Aduidotre da Firenze, nevével szokták említeni. Ehhez a történethez tartozik A titkos keresztes háború című kötet is, ami már <span lang="en">Adnrew Holmes</span> munkája.</p>
+              </aside>
+              <table class="table table-striped">
+                <caption>
+                  <details>
+                    <summary>Súgó</summary>
+                    <p>A táblázatban a könyvek alap adatait tüntetjük fel (író, cím és borítókép). A felsorolás a történet és a kronológia sorrendjét követi.</p>
+                  </details>
+                </caption>
+                <tbody>
+                  <tr>
+                    <td><span lang="en">	Mattew J. Kibry</span> </td>
+                    <td><span lang="en">The Last Descendant</span><br>A New York-i felkelés </td>
+                    <td><img src="./media/ac/ac_ny.png" class="img-fluid" alt="Borítókép: főhős(ök), korhű háttér, cím és író"></td>
+                  </tr>
+                  <tr>
+                    <td><span lang="en">	Mattew J. Kibry</span> </td>
+                    <td><span lang="en">The Last Descendant</span><br>A kán sírja</td>
+                    <td><img src="./media/ac/ac_kan.png" class="img-fluid" alt="Borítókép: főhős(ök), korhű háttér, cím és író"></td>
+                  </tr>
+                  <tr>
+                    <td><span lang="en">	Mattew J. Kibry</span> </td>
+                    <td><span lang="en">The Last Descendant</span><br>Az istenek végzete</td>
+                    <td><img src="./media/ac/ac_istenek.png" class="img-fluid" alt="Borítókép: főhős(ök), korhű háttér, cím és író"></td>
+                  </tr>
+                </tbody>
+              </table>
+              <aside>
+                <p>	A <span lang="en">The Last Descendant</span> trilógia egy a <span lang="en">Percy Jackson</span>-hoz hasonló törétne. Pár fiatalról kiderül, hogy származásuk folytán rajtuk múlik az emberiség sorsa. A trilógiát <span lang="en">	Mattew J. Kibry</span> írta.</p>
+              </aside>
+            <h5 class="text-white h4">Önálló kötetek</h5>
+            <table class="table table-striped">
+              <caption>
+                <details>
+                  <summary>Súgó</summary>
+                  <p>A táblázatban a könyvek alap adatait tüntetjük fel (író, cím és borítókép). A felsorolás a történet és a kronológia sorrendjét követi.</p>
+                </details>
+              </caption>
+              <tbody>
+                <tr>
+                  <td><span lang="en">Oliver Bowden</span> </td>
+                  <td><span lang="en">Origins</span><br> Sivatagi eskü</td>
+                  <td><img src="./media/ac/ac_origin.png" class="img-fluid" alt="Borítókép: főhős(ök), korhű háttér, cím és író"></td>
+                </tr>
+                <tr>
+                  <td><span lang="en">	Gordon Doherty </span> </td>
+                  <td>Odisszea</td>
+                  <td><img src="./media/ac/ac_odisszea.png" class="img-fluid" alt="Borítókép: főhős(ök), korhű háttér, cím és író"></td>
+                </tr>
+                <tr>
+                  <td><span lang="en">	Mattew J. Kibry </span> </td>
+                  <td> Geirmund Sagája <br> Valhalla</td>
+                  <td><img src="./media/ac/ac_valhalla.png" class="img-fluid" alt="Borítókép: főhős(ök), korhű háttér, cím és író"></td>
+                </tr>
+                <tr>
+                  <td><span lang="en">	Christine Golden </span> </td>
+                  <td>Eretnekség</td>
+                  <td><img src="./media/ac/ac_eretnekseg.png" class="img-fluid" alt="Borítókép: főhős(ök), korhű háttér, cím és író"></td>
+                </tr>
+                <tr>
+                  <td><span lang="en">	Christine Golden </span> </td>
+                  <td>	<span lang="en">Assassin’s Creed</span> (Hivatalos filmregény)</td>
+                  <td><img src="./media/ac/ac_filmregeny.png" class="img-fluid" alt="Borítókép: főhős(ök), korhű háttér, cím és író"></td>
+                </tr>
+                <tr>
+                  <td><span lang="en">Oliver Bowden</span> </td>
+                  <td>Fekete lobogó</td>
+                  <td><img src="./media/ac/ac_lobogo.png" class="img-fluid" alt="Borítókép: főhős(ök), korhű háttér, cím és író"></td>
+                </tr>
+                <tr>
+                  <td><span lang="en">Oliver Bowden</span> </td>
+                  <td>Árulás</td>
+                  <td><img src="./media/ac/ac_arulas.png" class="img-fluid" alt="Borítókép: főhős(ök), korhű háttér, cím és író"></td>
+                </tr>
+                <tr>
+                  <td><span lang="en">Oliver Bowden</span> </td>
+                  <td>Egység</td>
+                  <td><img src="./media/ac/ac_egyseg.png" class="img-fluid" alt="Borítókép: főhős(ök), korhű háttér, cím és író"></td>
+                </tr>
+                <tr>
+                  <td><span lang="en">Oliver Bowden</span> </td>
+                  <td>Alvilág</td>
+                  <td><img src="./media/ac/ac_alvilag.png" class="img-fluid" alt="Borítókép: főhős(ök), korhű háttér, cím és író"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </article>
+      <article id="megjelenesek"> <!-- megjelenések -->
+        <h2>Játék, majd Könyv és Film</h2>
+        <p>	Az <span lang="en">Assassin’s Creed</span> esetében, nem úgy mint például a <span lang="en">The Witcher</span>nél, a videójáték megelőzte a könyveket. A még ma is nagy rajongótábornak örvendő videójáték-sorozat sikeressége miatt, a játékok történetét könyv formátumban is kiadták. Ez a könyvsorozat elég sok kötetből áll, de ez ne tántorítson el senkit. A könyvek alapvetően egymástól függetlenek, de előfordul közte néhány trilógia is. Ami a mozi vásznat illeti, készült film adaptáció 2016-ban, ami szintén önálló tröténetet dolgoz fel. Habár ezt hatalmas csalódás megnézni, a belőle készült könyv megér egy próbát.</p>
+        <a href="./media/ac/filmkep.jpg" target="_blank"><img class="thumbnail" id="film" src="./media/ac/film.png" alt="Kép a filmből (toronyból leugró orgyilkos"></a>
+      </article>
+      <article id="elemzes"> <!-- elemzes -->
+        <h2>Hangulat és tanulság</h2>
+        <p>Az <span lang="en">Assassin’s Creed</span> egy izgalmas kémtörténet. Van benne kincsvadászat, lopakodás, tolvajlás, likvidálás és mindezt egy egyedi környezetben. A könyvekben ugyan nem mindíg van benne, de az események két idősíkon folynak egyszerre. A jelen modern világban és a múlt emlékeiben (történelmi korokban). A macska-egér játék folyamatosan fentartja a figyelmünket. Mindemellet komoly erkölcsi kérdések merülnek fel, minden alkalommal. A hatalom kérdésköre. Van jogos gyikosság? A szabad önrendelkezés-e az emberi agresszió forrása?
+        </p>
+      </article>
+
+  </main>
+
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

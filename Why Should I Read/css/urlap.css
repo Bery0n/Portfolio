@@ -1,0 +1,106 @@
+@media screen {
+    body {
+        background-color: rgb(31, 31, 31);
+        background-image: url(../media/top.png);
+        background-repeat: repeat-x;
+    }
+
+
+    .container {
+        text-shadow: 2px 2px 4px #000;
+        padding:2%;
+    }
+
+    article {
+        text-align:start !important;
+        border-radius: 1.875rem;
+        background-color: rgb(31, 31, 31);
+        opacity: 0.8;
+    }
+
+    header, main, footer {
+        padding: 0.625rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    
+    header {
+        padding: 3% 3%;
+        background-image: url(../media/fejlec.jpg);
+        border-top-left-radius: 1.875rem;
+        border-top-right-radius: 1.875rem;
+        border-bottom: solid rgb(255,170,0);
+        border-width: 0.625rem;
+    }
+    main {
+        background-color:#3e3e31;
+    }
+    footer {
+        font: 2.2rem Arial, sans-serif !important;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 1%;
+        background-color: #3e4f48;
+        border-top:solid rgb(0, 254, 195);
+        border-width: 5px;
+        border-bottom-left-radius: 1.875rem;
+        border-bottom-right-radius: 1.875rem;
+    }
+
+    label, h2 {
+        font-size: 1.875rem !important;
+        padding: 2.5rem 0.75rem 0.75rem 0.75rem;
+        display: inline-block;
+    }
+
+    input[type=text], textarea {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+    }
+
+    .col {
+        padding: 0.625rem 1.875rem;
+    }
+    #radio {
+        font-size: 1.2rem !important;
+        padding: 0px 0px 0px 0.5rem;
+    }
+    #r1,#r2,#r3,#r4,#r5,#r6, #hir {
+        height: 1.25rem;
+        width: 1.25rem;
+    }
+    #hirl {
+        font-size: 1.4rem !important;
+        padding: 0.313rem !important;
+    }
+    #utolso {
+        padding-top: 3.125rem !important;
+        padding-bottom: 0px !important;
+    }
+
+    #submit, #reset {
+        background-color: rgb(31, 31, 31);
+        color: rgb(255,170,0);
+        font-size: 1.85rem;
+        font-weight: 600 !important;
+        padding: 8px;
+        border-color: rgb(31, 31, 31);
+        border-radius: 0.625rem;
+        transition-duration: 0.4s;
+    }
+    #reset:hover {
+        color: rgb(255, 72, 0);
+        border: solid rgb(255, 72, 0);
+        background-color: rgb(71, 56, 51);
+    }
+    #submit:hover {
+        color: rgb(55, 255, 0);
+        border: solid rgb(37, 170, 0);
+        background-color: rgb(56, 73, 51);
+    }
+    
+}

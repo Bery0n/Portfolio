@@ -1,0 +1,72 @@
+@media screen {
+    
+    h1, h2 {
+        color: rgb(254, 250, 0) !important;
+    }
+    h3 {
+        margin-top: 2.188rem;
+    }
+    b {
+        color: rgb(254, 250, 0);
+    }
+
+    #tartalom {
+        font-size: 1.5rem;
+        font-style: italic;
+        border-bottom: solid rgb(254, 250, 0) !important;
+        border-width: 0.625rem;
+    }
+    #tartalomjegyzek, .offcanvas ,.offcanvas-body > .navbar-nav > li > .dropdown-menu,  .navbar-toggler  {
+        background-color: #4f4f3e !important;
+    }
+
+    .citation {
+        border-left: solid rgb(254, 250, 0);
+        border-width: 0.625rem;
+        background-color: #4f4f3e;
+    }
+
+    .table-striped>tbody>tr:nth-child(odd)>td, 
+    .table-striped>tbody>tr:nth-child(odd)>th {
+        background-color: #4f4f3e; 
+    }
+    table.table-striped{
+        border-color: rgb(254, 250, 0) !important;
+    }
+    article a:hover {
+        color: rgb(254, 250, 0);
+    }
+    #lewis, #map  {
+        border-radius: 0.5rem;
+        border-left: solid rgb(254, 250, 0);
+        border-width: 0.5rem;
+    }
+
+    #lewisf{
+        border-radius: 0.5rem;
+        background-color: #4f4f3e;
+        font-size: 1.2rem;
+        text-align: center;
+        width: 20%;
+        margin: 0 0 3rem 3rem;
+        float: right;
+    }
+    #lewis {
+        margin-top: 1rem;
+        width: 84%;
+    }
+    #map {
+        margin: 0 3rem 3rem 0;
+        float: left;
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 45rem) {
+    #lewisf, #map{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
