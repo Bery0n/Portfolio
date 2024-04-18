@@ -34,8 +34,11 @@ Celltypes:
 - cell with light bulb (icon)
 - wall (black or numbered)
 
-### Cells
+### Finnish
 Solve the puzzle by placing light bulbs to illuminate all free dark cells!
+If you completed the mission the room will be enlighted and wall's become green to indicate your victory.
+
+### Cells
 
 Cells with bulb are count as illuminted.
 
