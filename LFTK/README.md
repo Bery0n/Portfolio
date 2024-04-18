@@ -1,58 +1,48 @@
 # Light For The King
-
 ## Mission from King Noname of Nowhere!
 
-Are you a hero, who seeks for challenges?
-Brave Adventure come fulfil the impossible! 
-Come to serve for our royal Mayesty, King Noname, Lord of the most actionful country named Nowhere!
+Are you a hero who seeks challenges? Brave adventurers, come and fulfill the impossible! Come serve our royal Majesty, King Noname, Lord of the most adventurous country named Nowhere!
 
-His Majesty's wish is to overshine every corner of his Palace. But His Royal Highness afarid of spiders and the corridors are full of those horrible creatures. The evil does not spleep! Brave Adventure help us place lamps to banish those monsters!
+His Majesty wishes to illuminate every corner of his Palace. But His Royal Highness is afraid of spiders, and the corridors are infested with those horrible creatures. Evil never sleeps! Brave adventurers, help us place lamps to banish these monsters!
 
-##  Start and Options
+## Start and Options
 
-Before starting the game you can chose your adventure name, but it is not requirement.
+Before starting the game, you can choose your adventure **name**, but it **is not a requirement**.
 
-If you accepted the mission, the king offers three part of his's castle as a place to challange yourself.
-All three option contains one puzzle:
+If you accept the mission, the king offers three parts of his castle as places to challenge yourself. Each option contains one puzzle:
+
 - Kitchen (Small)
 - Lobby (Medium)
 - Dungeons (Large)
 
-During or after your challenge you can choose between:
-- Retry: reseting the playgoround
-- Back to the King: change puzzle
-- Run away: abort challenge and go back to starting page
-(Buttons are below of the puzzle)
+During or after your challenge, you can choose between:
+
+- Retry: reset the playground
+- Back to the King: change the puzzle
+- Run away: abort the challenge and return to the starting page (Buttons are below the puzzle)
 
 ## Game Rules
 
-Every room puzzle is made of cells.
-Celltypes:
-- free dark cell (dark grey)
-- illuminated cell (light yellow)
-- cell with light bulb (icon)
-- wall (black or numbered)
+Every room puzzle is made up of cells with the following types:
 
-### Finish
-Solve the puzzle by placing light bulbs to illuminate all free dark cells!
-If you completed the mission the room will be enlighted and wall's become green to indicate your victory.
+- Free dark cell (dark grey)
+- Illuminated cell (light yellow)
+- Cell with a light bulb (icon)
+- Wall (black or numbered)
 
-### Cells
+**Finish**
 
-- Cells with bulb are count as illuminted.
+Solve the puzzle by placing light bulbs to illuminate all free dark cells! If you complete the mission, the room will be enlightened, and the walls will turn green to indicate your victory.
 
-- Walls stop the light's spread
+**Cells**
 
-- Two cells are neighboured if they are connected by side, so connection by corner doesn't count. (You can't place bulbs on neighboured cells.)
+- Cells with a bulb are counted as illuminated.
+- Walls stop the spread of light.
+- Two cells are neighbors if they are connected by a side, so connections by corners don't count. (You can't place bulbs on neighboring cells.)
+- The number on the wall indicates how many bulbs are needed in the neighboring cells. (If there are enough bulbs, the numbered wall turns green; otherwise, if there are more or fewer bulbs, the wall's background turns red.)
 
-- Number on wall says how many bulbs are needed in the neighbour of the wall. (If there are enough bulbs numbered wall gointo be green, else if there are more or less the wall's backround gointo became red.)
+**Light Bulbs**
 
-### Light Bulbs
-
-- Place bulb by clicking on free dark of illuminated cell and click on bulb to remove it.
-
-- These light sources emit light both vertical and horizontal directions with infinit range.
-
-- Two bulb can not enlight eachother (it's waste of energy), but if they do their place goint to be highlighted with pink background.
-
-
+- Place a bulb by clicking on a free dark or illuminated cell and then click on the bulb to remove it.
+- These light sources emit light in both vertical and horizontal directions with infinite range.
+- Two bulbs cannot illuminate each other (it's a waste of energy), but if they do, their place will be highlighted with a pink background.
