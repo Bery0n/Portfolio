@@ -27,7 +27,7 @@ Every room puzzle is made up of cells with the following types:
 
 - Free dark cell (dark grey)
 - Illuminated cell (light yellow)
-- Cell with a light bulb (icon)
+- Cell with a light bulb (💡)
 - Wall (black or numbered)
 
 **Finish**
