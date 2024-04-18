@@ -2,10 +2,9 @@
 
 ## Mission from King Noname of Nowhere!
 
-You are an adventure, who found the advertisement below while seeks for challenges in the most actionful country, Nowhere.
-
+Are you a hero, who seeks for challenges?
 Brave Adventure come fulfil the impossible! 
-Come to serve for our royal Mayesty, the King Noname!
+Come to serve for our royal Mayesty, King Noname, Lord of the most actionful country named Nowhere!
 
 His Majesty's wish is to overshine every corner of his Palace. But His Royal Highness afarid of spiders and the corridors are full of those horrible creatures. The evil does not spleep! Brave Adventure help us place lamps to banish those monsters!
 
@@ -34,26 +33,26 @@ Celltypes:
 - cell with light bulb (icon)
 - wall (black or numbered)
 
-### Finnish
+### Finish
 Solve the puzzle by placing light bulbs to illuminate all free dark cells!
 If you completed the mission the room will be enlighted and wall's become green to indicate your victory.
 
 ### Cells
 
-Cells with bulb are count as illuminted.
+- Cells with bulb are count as illuminted.
 
-Walls stop the light's spread
+- Walls stop the light's spread
 
-Two cells are neighboured if they are connected by side, so connection by corner doesn't count. (You can't place bulbs on neighboured cells.)
+- Two cells are neighboured if they are connected by side, so connection by corner doesn't count. (You can't place bulbs on neighboured cells.)
 
-Number on wall says how many bulbs are needed in the neighbour of the wall. (If there are enough bulbs numbered wall gointo be green, else if there are more or less the wall's backround gointo became red.)
+- Number on wall says how many bulbs are needed in the neighbour of the wall. (If there are enough bulbs numbered wall gointo be green, else if there are more or less the wall's backround gointo became red.)
 
 ### Light Bulbs
 
-Place bulb by clicking on free dark of illuminated cell and click on bulb to remove it.
+- Place bulb by clicking on free dark of illuminated cell and click on bulb to remove it.
 
-These light sources emit light both vertical and horizontal directions with infinit range.
+- These light sources emit light both vertical and horizontal directions with infinit range.
 
-Two bulb can not enlight eachother (it's waste of energy), but if they do their place goint to be highlighted with pink background.
+- Two bulb can not enlight eachother (it's waste of energy), but if they do their place goint to be highlighted with pink background.
 
 
