@@ -15,11 +15,12 @@ If you accept the mission, the king offers three parts of his castle as places t
 - Lobby (Medium)
 - Dungeons (Large)
 
-During or after your challenge, you can choose between:
+During or after your challenge, you can choose between:  
+(Buttons are below the puzzle)
 
 - Retry: reset the playground
 - Back to the King: change the puzzle
-- Run away: abort the challenge and return to the starting page (Buttons are below the puzzle)
+- Run away: abort the challenge and return to the starting page
 
 ## Game Rules
 
@@ -38,8 +39,10 @@ Solve the puzzle by placing light bulbs to illuminate all free dark cells! If yo
 
 - Cells with a bulb are counted as illuminated.
 - Walls stop the spread of light.
-- Two cells are neighbors if they are connected by a side, so connections by corners don't count. (You can't place bulbs on neighboring cells.)
-- The number on the wall indicates how many bulbs are needed in the neighboring cells. (If there are enough bulbs, the numbered wall turns green; otherwise, if there are more or fewer bulbs, the wall's background turns red.)
+- Two cells are neighbors if they are connected by a side, so connections by corners don't count.  
+  (<small>You can't place bulbs on neighboring cells.</small>)
+- The number on the wall indicates how many bulbs are needed in the neighboring cells.  
+  (<small>If there are enough bulbs, the numbered wall turns green; otherwise, if there are more or fewer bulbs, the wall's background turns red.</small>)
 
 **Light Bulbs**
 
