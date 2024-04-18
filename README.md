@@ -11,5 +11,8 @@ Whether you're curious about what I've created, how I work, or just want to conn
 
 ## Projects
 - Letter Frequency Analysator (LFA)
+    C++ code
 - Light For The King (LFTK)
+    In-Browser game (HTML, CSS, JavaScirpt)
 - Why Should I Read? (WSIR)
+    Responsive static website (HTML, XHTML, CSS)

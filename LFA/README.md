@@ -1,6 +1,6 @@
-# LFA
+# Letter Frequency Analysator
 
-This little program prompts the user for the name of a text file, 
+This little C++ program prompts the user for the name of a text file, 
 then generates two lists detailing the frequency of each letter found in the file.
 
 - Lists:     
