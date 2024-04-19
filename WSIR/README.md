@@ -1,27 +1,24 @@
 # Why Should I Read?
+This project aims to create responsive and accessible static websites. It provides a range of solutions for basic level frontend development in HTML, XHTML, and CSS.
+The content is currently written in Hungarian but will soon be updated with an English translation.
 
-This project is about to create a responsive and accessible static websites. It is a bunch of solutions for based level frontend developping in HTML, XHTML and CSS.
-
-## Topic
-The choice was open to pick topic for the page, so I choose to advertise the positiv affections of reading and created a top 5 recommended book series list. Each series got it's own page to introduce the author(s) and itself. 
-Listmembers are the followings:
+# Topic
+The choice was open to pick a topic for the page, so I chose to advertise the positive effects of reading and created a top 5 recommended book series list. Each series has its own page to introduce the author(s) and itself. The list includes:
 - Assassin's Creed
 - Harry Potter
 - Game Of Thrones
 - Narnia
 - Percy Jackson
-  
-## Simple Static Website
-In this project you can find all bacis elements of a static website. It contains:
-- Navigation bar to change between pages and hamburger menus to navigate on them
-- Hiperlink, picture and video usage
-- Full application form
-- Desing by CSS
-  
-## Responsivity
-The website is developed responsivly. There are two layout for different window size, one for laptop screens and one for smaller ones like smar phones. This responsivity is very low level, but works right and may get updated.
 
-## Accessibility
-The full designe based on high contrast between text and backroung and bigger font size for good readability.
-Each picture and video has a replace text to inform visually impaired users, if they use reading help softwer.
-Futhermore on the Harry Potter page below the videos a link shows example for full audio description about the Hufflepuff videa.
+# Simple Static Website
+This project includes all basic elements of a static website, such as:
+- Navigation bar and hamburger menus
+- Hyperlink, picture, and video usage
+- Full application form
+- Design by CSS
+
+# Responsiveness
+The website is developed responsively with two layouts for different window sizes: one for laptop screens and one for smaller ones like smartphones. This responsiveness is at a basic level but functions correctly and may be updated.
+
+# Accessibility
+The design is based on high contrast between text and background and a larger font size for better readability. Each picture and video includes alternative text to inform visually impaired users if they use reading assistance software. Furthermore, on the Harry Potter page, below the videos, a link provides an example of full audio description for the Hufflepuff video.
