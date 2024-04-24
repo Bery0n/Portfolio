@@ -1,7 +1,9 @@
 # Light For The King
 ## Mission from King Noname of Nowhere!
 
-Are you a hero who seeks challenges? Brave adventurers, come and fulfill the impossible! Come serve our royal Majesty, King Noname, Lord of the most adventurous country named Nowhere!
+Are you a hero who seeks challenges?  
+Brave adventurers, come and fulfill the impossible!  
+Come serve our royal Majesty, King Noname, Lord of the most adventurous country named Nowhere!
 
 His Majesty wishes to illuminate every corner of his Palace. But His Royal Highness is afraid of spiders, and the corridors are infested with those horrible creatures. Evil never sleeps! Brave adventurers, help us place lamps to banish these monsters!
 
