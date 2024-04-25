@@ -10,6 +10,9 @@ On this platform, I'll be sharing my skills, experiences, and the projects I've 
 Whether you're curious about what I've created, how I work, or just want to connect with me, feel free to browse through my portfolio and don't hesitate to share your thoughts or feedback! Thank you for being here, and I hope you find some interesting things.
 
 ## Projects
+- **bEnigma**   
+  Enigma simulator (C++)
+
 - **Letter Frequency Analysator** (LFA)  
   C++ code
   
