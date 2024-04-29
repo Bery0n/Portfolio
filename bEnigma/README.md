@@ -31,7 +31,7 @@ Opens from MAIN_MENU or #2. All of the settings can be accessed from this menu. 
 ### EXIT options
 To exit, you can navigate to the MAIN_MENU or use #3. Both ways are correct and will not cause any errors.
 
-## How does it works?
+## How did Enigma work?
 The Enigma machines were based on a complex system of circuits, and the main parts included a keyboard, switchboard, rotors, reflector, and indicator lights. The (de)coding process is as follows:
 keyboard (input) -> switchboard -> rotors (forward) -> relector ->  
 -> rotors (backward) -> switchboard -> indicator lights (output)
