@@ -31,4 +31,20 @@ Opens from MAIN_MENU or #2. All of the settings can be accessed from this menu. 
 ### EXIT options
 To exit, you can navigate to the MAIN_MENU or use #3. Both ways are correct and will not cause any errors.
 
+## How does it works?
+The Enigma machines were based on a complex system of circuits, and the main parts included a keyboard, switchboard, rotors, reflector, and indicator lights. The (de)coding process is as follows:
+keyboard (input) -> switchboard -> rotors (forward) -> relector ->  
+-> rotors (backward) -> switchboard -> indicator lights (output)
 
+### Input and Output
+Keyboard is the input source, all path starts here and indicator lights are responsible for ouptut information. Each letter of the keyboard has their own indicator light. If you type in A (A button on keyboard) and the machine code it to H, then the light of H will flash up.
+
+### Rotors and Switchboard
+The rotors were the rotating components of the Enigma. With every key press, they moved forward one step, changing the signal's path and thus the output. However, while the path changes due to rotations, the order of connections or gates (as I referred to them in the code) between the two sides of the rotor did not change. There were five different rotors, but only three were used in the machine at once.
+
+The switchboard, much like rotors, was responsible for converting letters to others, but it provided a way to create your own set of gates without rotation.
+
+Both the switchboard and rotors can be represented by bijective functions, but while the rotors change with each use, the switchboard remains fixed.
+
+### Reflector
+Reflector was responsible for turn the signals path back. It can also be described by a bijective function, but it did not change regardless.
