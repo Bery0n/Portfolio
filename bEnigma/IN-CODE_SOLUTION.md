@@ -20,6 +20,7 @@ Gates:
 
 ## Rotation
 To implement the rotation of the rotors, each one has a ```RInt rotation``` attribute. At start it is 0 and with every turn it changes. In the proccess this integer will be substracted from the index befor it reach the gates. After passing through the gatesfor correction will be added to after passing through the gates.
+
 e.g.:
 ```txt
     A    B    C    D    E    F    G    H    I    J    K    L    M    N    O    P    Q    R    S    T    U    V    W    X    Y    Z
