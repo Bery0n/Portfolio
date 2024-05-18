@@ -14,7 +14,7 @@ While Enigma was a physical machine, bEnigma is a code that requires menus and m
 - ```SWITCHBOARD_SETTINGS```
 - ```EXIT```
 
-### Mode Swithcers
+### Mode Switchers
 For easier and faster navigation, there are built-in mode switchers, which can change the machine's state instantly.
 - ```#1```: Start ```CRYPTING```
 - ```#2```: Open ```MAIN_SETTINGS```
